@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\SingleSignal">
+      <UniqueIdentifier>{85995472-408a-4852-aba2-c9e7f7061505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test_compile">
+      <UniqueIdentifier>{c8748a3b-1f5d-4edf-932b-bf9cac5ab94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\old_test">
+      <UniqueIdentifier>{efe52707-919d-4f0a-8a2c-7dd9ce915e19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SingleSignal\test_basic_connection.cpp">
+      <Filter>源文件\SingleSignal</Filter>
+    </ClCompile>
+    <ClCompile Include="loop_emit_test.cpp">
+      <Filter>源文件\SingleSignal</Filter>
+    </ClCompile>
+    <ClCompile Include="algo.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\optional_test.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="test_algorithm.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\test_array.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\test_fold.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\test_FW.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\test_initlist.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\test_iter_op_detect.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="test_maybe.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\test_repeat.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\test_rm_fptr.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\test_transform.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\testCtStringcpp.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\testErase.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\testExString.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Talg\Test\testFindVal.cpp">
+      <Filter>源文件\old_test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="doctest_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy_add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Talg\Test\test_suits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
